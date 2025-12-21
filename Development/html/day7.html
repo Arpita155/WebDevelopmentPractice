@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>iframe tag</h1>
+    <iframe src="https://www.wikipedia.org/" frameborder="0" height="400px" width="400px"></iframe>
+
+    <h2>Radio Boxes</h2>
+    Gender : <label for="male">Male</label><input type="radio" name="Gender" id="male"> &nbsp; 
+            <label for="female">Female</label><input type="radio" name="Gender" id="female"><br><br>
+
+
+    Subjects : <label for="java">Java</label><input type="checkbox" name="Subjects" id="java">
+               <label for="py">Python</label><input type="checkbox" name="Subjects" id="py">
+               <label for="ml">ML</label><input type="checkbox" name="Subjects" id="ml">
+               <label for="dsa">DSA</label><input type="checkbox" name="Subjects" id="dsa">
+
+    <h2>Your Location</h2>
+    <div id="output">
+
+    </div>
+    <!-- Location :  -->
+</body>
+<script>
+    let output = document.getElementById("output")
+    // output.innerHTML = "hello"
+    function getLocation()
+    {
+        if(navigator.geolocation)
+        {
+            navigator.geolocation.getCurrentPosition(success , error)
+        }else{
+            output.innerHTML= "Browser not providing location"
+        }
+    }
+
+    function success(position){
+        output.innerHTML = "Latitude : "+ position.coords.latitude + " <br> Longitude : "+ position.coords.longitude
+    }
+
+    function error()
+    {
+        output.innerHTML = "something error occured !"
+    }
+
+    getLocation()
+</script>
+</html>
