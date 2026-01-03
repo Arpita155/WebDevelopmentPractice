@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Day1HTML</title>
+    <link rel="stylesheet" href="day1.css">
 </head>
 <style>
     body{
+        /* -----Background--------- */
+        background-color: rgb(96, 239, 94);
         background-image: url("../html/Basic Structure/writer.jpg");
-        background-repeat: no-repeat;
+        background-repeat:no-repeat;
         background-position: top ;
         background-size: cover;
     }
+    #in{
+        color:rgb(245, 42, 187);
+    }
     .nor{
-        color: pink;
+        color: red;
     }
 
     .rgb{
@@ -50,7 +56,9 @@
 <body>
     
     <h1>Types of CSS : 3 types -- > Inline, Internal, external</h1>
-
+    <p style="color: red;">Inline</p>
+    <p id="in">Internal</p>
+    <p class="ex">External</p>
 
     <h1 class="col">colors</h1>
     <p class="nor">Normal color</p>
@@ -58,6 +66,7 @@
     <p class="rgba">RGBA</p>
     <p class="hex">HEX</p>   <!--3 values   1. first :- 0-360    sec: 0-100  third: 0-100-->
     <p class="hsl">HSL</p>
+
 
     <h2>border</h2>
     <div class="bord"></div>

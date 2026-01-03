@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px; 
+    width: 100vw; 
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    img{
+        height: 30px;
+        width: 100px;
+        padding: 20px;
+        padding-top: 15px;
+        padding-right: 5px;
+    }
+    p{
+        color: white;
+    }
+}
+.head{
+    /* background-color: aqua; */
+    width: 43vw;
+    display: flex;
+    justify-content: right;
+    margin-left: 500px;
+    padding-left: 100px;
+    padding-right: 10px;
+    gap: 5px;
+    .bt1{
+        border-radius: 7px;
+        background-color: black;
+        color: white;
+        border: 1px solid wheat;
+        height: 25px;
+        font-weight: 550;
+    }
+    .bt2{
+        border-radius: 7px;
+        background-color: rgb(56, 88, 248);
+        color: white;
+        font-weight: 550;
+        height: 25px;
+        width: 80px;
+        border: none;
+    }
+}
+.secd{
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(233, 214, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        padding-left: 30px;
+    }
+    .s{
+        height: 30px;
+        width: 280px;
+        margin-top:0;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        padding-left: 23px;
+        /* padding-top: 15px;  */
+        font-weight: lighter;
+    }
+}
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.branch{
+    padding-top: 20px;
+    display: flex;
+    img{
+        padding-top: 30px;
+        padding-right: 10px;
+        height: 100px;
+        width: 100px;
+    }
+}
+.MAccount{
+    padding-top: 20px;
+    display: flex;
+    img{
+        padding-top: 40px;
+        padding-right: 20px;
+        height: 90px;
+        width: 90px;
+    }
+}
+.div2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.MOrg{
+    padding-top: 70px;
+    display: flex;
+    img{
+        padding-top: 40px;
+        padding-right: 10px;
+        height: 100px;
+        width: 100px;
+    }
+}
+.MBil{
+    /* padding-left: 30px; */
+    /* margin-left: 30px; */
+    padding-top: 70px;
+    display: flex;
+    img{
+        padding-top: 40px;
+        padding-right: 10px;
+        height: 100px;
+        width: 100px;
+    }
+}
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.AAbstract{
+    padding-top: 70px;
+    display: flex;
+    img{
+        padding-top: 40px;
+        padding-right: 10px;
+        height: 90px;
+        width: 90px;
+    }
+}
+.ASupport{
+    padding-top: 70px;
+    display: flex;
+    img{
+        padding-top: 40px;
+        padding-right: 2px;
+        height: 90px;
+        width: 100px;
+    }
+}

@@ -1,0 +1,36 @@
+.xyz{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.abc{
+    display:flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    align-items:start;
+    /* gap: 10px; */
+}
+.secdiv{
+    background-color: chartreuse;
+    height: 100px;
+    width: 100px;
+    overflow:scroll;
+}
+span{
+    display: block;
+    background-color: blueviolet;
+}
+.sa{
+    margin: auto;
+    background-color: brown;
+    display: inline;
+}
+.bs{
+    height: 90px;
+    width: 150px;
+    background-color: blue;
+    box-shadow: 15px 15px 5px black;
+}
