@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+   /* Header */
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  background-color: rgb(238, 243, 150);
+  font-weight:bold;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+.active-head{
+  background-color:  rgb(224, 235, 71);
+  height: 35px;
+  padding: 3px 10px 3px 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+    /* Accordian */
+.box{
+  border: 1px solid black;
+  width: 50%;
+}
+
+.box-head{
+  display: flex;
+  height: 30px;
+  background-color: rgb(216, 208, 208);
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: larger;
+}
+
+.box-desc{
+  display: none;
+}
+
+.box p{
+  padding: 5px 20px 5px 30px;
+}
+.box button{
+  height: 20px;
+  width: 30px;
+  font-size: larger;
+  background-color: rgb(216, 208, 208);
+  border: none;
+}
+
+/* Contact  */
+.login-div{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-size: x-large;
+  padding-top: 40px;
+  button{
+    height: 28px;
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(241, 244, 66);
+    font-weight: 600;
+  }
+}
+.login-div input{
+  height: 27px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+
+.contact-h1{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.contact-div{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(90, 236, 212);
+  border-radius: 10px;
+}
+
+
+    /* Product-Card */
+.products-h1{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 1000;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.product-card{
+  height: 70px;
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.product-card img{
+  height: 50px;
+}
+
+.product-card span{
+  font-size: larger;
+}
+
+.product-card .left{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+}
+
+.title{
+  min-width: 60%;
+}
+
+.product-card button{
+  width: 90px;
+  height: 40px;
+  font-size: large;
+  border-radius: 20px;
+  border: none; 
+  cursor: pointer;
+  background-color: rgb(225, 242, 152);
+}
+
+.product-card button:hover{
+  outline-offset: 1px;
+  outline: 0.5px solid black;
+}
+
+.product-card:hover{
+  outline: 1px solid black;
+  height: 80px;
+  background-color: aliceblue;
+}
+
+/* Product */
+.pageNo{
+  padding: 4px 10px 4px 10px;
+  font-size:medium;
+  border-radius: 5px;
+  border: 1px solid rgb(155, 149, 149);
+  margin: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: white;
+}
+.pageNo:hover{
+  background-color: rgb(206, 233, 87);
+}
+
+.colorPage{
+  background-color: yellow;
+}
+
+/* ShowPremium */
+.card{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 30px;
+}
+.premium{
+   
+}
+.premium-text{
+    position: absolute;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px;
+}

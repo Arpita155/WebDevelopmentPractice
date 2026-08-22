@@ -13,6 +13,7 @@ import Form from './components/Form'
 import ConditionalRender from './components/ConditionalRender'
 import GenerateRandomNumber from './components/GenerateRandomNumber'
 import UseEffectDemo from './components/UseEffectDemo'
+import ToDO from './components2/ToDO.jsx'
 
 
 export default function App() {
@@ -486,7 +487,9 @@ const posts = [
         {/* Generate Random Number */}
           {/* < GenerateRandomNumber /> */}
 
-          < UseEffectDemo />
+          {/* < UseEffectDemo /> */}
+
+          <ToDO />
       
     </div>
     
