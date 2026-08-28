@@ -192,3 +192,14 @@ header a{
     border-radius: 10px;
     padding: 5px;
 }
+
+.inp{
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+    border: none;
+    outline: 1px solid black;
+    padding: 5px;
+    font-size: large;
+    margin: 10px;
+}

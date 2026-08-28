@@ -10,8 +10,8 @@ export default function Header() {
     {path : "/about" , name : "About"},
     {path : "/contact", name : "Contact"},
     {path : "/products" , name : "Products"},
+    {path : "/search", name: "Search"},
   ]
-
 
 
   return (
@@ -25,7 +25,7 @@ export default function Header() {
         <Link to="/products">Products</Link> */}
 
         {
-          arr.map((ele)=> <Link to={ele.path} className={location.pathname == ele.path ? "active-head" : ""}>{ele.name}</Link>)
+          arr.map((ele,idx)=> <Link key={idx} to={ele.path} className={location.pathname == ele.path ? "active-head" : ""}>{ele.name}</Link>)
         }
 
       </header>

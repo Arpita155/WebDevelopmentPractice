@@ -7,5 +7,5 @@ Routing in React
 - npm i react-router-dom
 - wrap whole <App> inside <BrowseRouter>
 means - <BrowserRouter> <App> </BrowserRouter>
- Routes - Route
+Routes - Route
 

@@ -5,9 +5,10 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Header from './components/Header'
 import ErrorPage from './Pages/ErrorPage'
+import Search from './Pages/Search'
 
 export default function App() {
-  const Products = lazy(()=> import("./Pages/Products"))
+  const Products = lazy(()=> import("./Pages/Products"));
 
   let user = {
     name : "arpita",
@@ -25,14 +26,11 @@ export default function App() {
             <Route path='/about' element={<About/>} />
             <Route  path='/contact' element={<Contact user={user}/>}  />
             <Route path='/products' element={<Products/>} />
+            <Route path='/search' element={<Search/>} />
             <Route path='*' element={<ErrorPage/>} />
 
           </Routes>
       </Suspense>
-
-
-
-
       
     </div>
   )
